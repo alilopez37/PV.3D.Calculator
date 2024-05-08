@@ -1,0 +1,11 @@
+
+#calc_box_btn {
+    margin: 5px 0;
+    width: 225px;
+    height: 225px;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}

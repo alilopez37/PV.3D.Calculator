@@ -1,8 +1,11 @@
 import './Button.css'
 
 function Button(props){
-    console.log(props)
-    return <button id="calc-btn">{props.val}</button>
+    const handlerClick = (event)=> {
+        console.log(event.target.name);
+    }
+
+    return <button onClick={handlerClick} id="calc-btn" name={props.val}>{props.val}</button>
 }
 
 export default Button

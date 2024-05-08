@@ -1,0 +1,7 @@
+#calc_box {
+    width: 225px;
+    height: 35px;
+    background-color: beige;
+    color: black;
+    border: 2px solid gray;
+}
